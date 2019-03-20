@@ -12,7 +12,7 @@ public class Address {
 
 	@Id
 	@GeneratedValue
-	private Integer addressId;
+	private int addressId;
 	private String houseNo;
 	private String street;
 	private String locality;
@@ -21,7 +21,7 @@ public class Address {
 	private String pinCode;
 	private String country;
 
-	private Integer userId;
+	private int userId;
 
 	public Address() {
 
